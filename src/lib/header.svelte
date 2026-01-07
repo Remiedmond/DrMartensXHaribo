@@ -53,7 +53,7 @@
   {#if isOpen}
     <div 
       transition:fade
-      class="fixed inset-0 bg-black z-40 flex flex-col items-center justify-center gap-8 text-white"
+      class="fixed inset-0 bg-martens-beige z-40 flex flex-col items-center justify-center gap-8 text-martens-yellow hover:text-black"
     >
       <a href="https://www.haribo.com/" on:click={toggleMenu} class="text-3xl font-black hover:text-martens-yellow">Haribo</a>
       <a href="https://www.drmartens.com/" on:click={toggleMenu} class="text-3xl font-black hover:text-martens-yellow">Dr Martens</a>
@@ -61,6 +61,10 @@
       
     </div>
   {/if}
+
+
+  <div class="bg-martens-beige" style="width:100%;height:4rem;"></div>
+   
 
 
 

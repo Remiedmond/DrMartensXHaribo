@@ -11,6 +11,9 @@ export default {
 	  'martens-black': '#232323',
 	  'martens-beige': '#EFEFD0',
     'martens-haribo': '#FF2352',
+    'doc-yellow': '#FFC916',
+    'haribo-red': '#FF2352',
+    'about-cream': '#EFEFD0',
     }
   }
 },
