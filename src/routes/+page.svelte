@@ -5,7 +5,7 @@
   import SweetRiot from '$lib/sweetriot.svelte';
   import LicoriceScroll from '$lib/LicoriceScroll.svelte';
   import VideoPlayer from '$lib/VideoPlayer.svelte';
-  import Event from '$lib/Event.svelte';
+  import Event from '$lib/event.svelte';
   import Historique from '$lib/Historique.svelte';
   import Lepack from '$lib/lepack.svelte';
   import Footer from '$lib/footer.svelte';
