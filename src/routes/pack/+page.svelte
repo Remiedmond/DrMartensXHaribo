@@ -1,5 +1,5 @@
 <script>
-  import Footer from '$lib/Footer.svelte';
+  import Footer from '$lib/footer.svelte';
   import ProductCard from '$lib/ProductCard.svelte';
   import Header from '$lib/header.svelte';
   import LicoriceScroll from '$lib/LicoriceScroll.svelte';

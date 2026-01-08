@@ -1,5 +1,5 @@
 <script>
-  import Footer from '$lib/Footer.svelte';
+  import Footer from '$lib/footer.svelte';
   import ProductCard from '$lib/ProductCard.svelte';
   import Header from '$lib/header.svelte';
   import LicoriceScroll from '$lib/LicoriceScroll.svelte';
@@ -8,10 +8,10 @@
   import Hero from '$lib/Hero.svelte';
   import SweetRiot from '$lib/sweetriot.svelte';
   import VideoPlayer from '$lib/VideoPlayer.svelte';
-  import Event from '$lib/Event.svelte';
-  import Historique from '$lib/Historique.svelte';
+  import Event from '$lib/event.svelte';
+  import Historique from '$lib/historique.svelte';
   import Lepack from '$lib/lepack.svelte';
-  import Villes from '$lib/villes.svelte';
+  import Villes from '$lib/Villes.svelte';
 
     let showLicorice = false;
   
