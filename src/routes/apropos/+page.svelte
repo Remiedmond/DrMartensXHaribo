@@ -8,8 +8,8 @@
   import Hero from '$lib/Hero.svelte';
   import SweetRiot from '$lib/sweetriot.svelte';
   import VideoPlayer from '$lib/VideoPlayer.svelte';
-  import Event from '$lib/Event.svelte';
-  import Historique from '$lib/Historique.svelte';
+  import Event from '$lib/event.svelte';
+  import Historique from '$lib/historique.svelte';
   import Lepack from '$lib/lepack.svelte';
 
     let showLicorice = false;
