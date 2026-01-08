@@ -21,6 +21,8 @@
 
     return () => observer.disconnect();
   });
+
+   let isHover = false; 
 </script>
 
 <section class="bg-martens-beige py-12 md:py-24 flex flex-col items-center gap-6 md:gap-12 px-4 overflow-hidden">
@@ -45,6 +47,20 @@
     src="/event-image.png" 
     alt="Événement" 
   />
+  <a href="/itineraire" >
+  <img 
+    bind:this={elements[3]}
+    
+    src={isHover ? "/ticket 2.png" : "/ticket 1.png"}
+    alt="Lieu de l'événement"
+    on:mouseenter={() => isHover = true}
+    on:mouseleave={() => isHover = false}
+  />
+  </a>
+  <div class="text-martens-black text-center">
+  <h2 class="text-martens-yellow text-center text-[34px] font-black">Cliquez sur le ticket</h2>
+  <p class="font-bold"> pour voir le line-up</p>
+  </div>
 </section>
 
 <style>

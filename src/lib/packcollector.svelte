@@ -1,6 +1,6 @@
 <script>
   // Tu peux importer tes images ici
-  let bootImage = "votre_image_botte_fleurie.png"; 
+  let bootImage = "BOITE DESIGN.jpg"; 
 </script>
 
 <section class="min-h-screen bg-martens-beige relative overflow-hidden font-sans">
@@ -30,14 +30,14 @@
         
         <img 
           src={bootImage} 
-          alt="Dr. Martens x Haribo Boot" 
-          class="relative z-10 w-full drop-shadow-[20px_20px_0px_rgba(0,0,0,1)] group-hover:drop-shadow-[30px_30px_0px_rgba(227,6,19,1)] transition-all duration-500 transform group-hover:-translate-y-2"
+          alt="Dr. Martens x Haribo Boot"   
+          class="relative z-10 w-full  drop-shadow-[20px_20px_0px_rgba(0,0,0,1)] group-hover:drop-shadow-[30px_30px_0px_rgba(227,6,19,1)] transition-all duration-500 transform group-hover:-translate-y-2"
         />
       </div>
 
       <div class="space-y-12">
         <div class="border-l-8 border-martens-black pl-6">
-          <h2 class="text-4xl font-black uppercase tracking-tighter mb-4">La Boot "Sweet Riot"</h2>
+          <h2 class="text-4xl font-black text-martens-black uppercase tracking-tighter mb-4">La Boot "Sweet Riot"</h2>
           <p class="text-lg font-medium leading-relaxed">
             Le cuir classique Smooth noir de Doc' rencontre l'explosion de couleurs Haribo. 
             Lacets dégradés "Rainbow Sugar", surpiqûres multicolores et un badge en métal Goldbear amovible sur la cheville.

@@ -1,11 +1,12 @@
 <section class="min-h-screen bg-martens-beige relative py-20 px-6  overflow-hidden font-sans">
   
-  <div class="absolute inset-0 opacity-15 pointer-events-none mix-blend-multiply bg-[url('https://grainy-gradients.vercel.app/noise.svg')]"></div>
+  <div class="absolute inset-0 opacity-15 text-martens-black pointer-events-none mix-blend-multiply bg-[url('https://grainy-gradients.vercel.app/noise.svg')]"></div>
 
-  <div class="relative z-10 text-center mb-24">
-    <h2 class="text-4xl md:text-6xl uppercase tracking-tighter text-black">
-      La rébellion a du goût
-    </h2>
+  <div class="relative z-10 text-center  w-full">
+    <img 
+      src="la rebellion a du gout.png" 
+      alt="Dr Martens x Haribo Logo" 
+      class="mx-auto w-[500px] md:w-[1000px] " />
   </div>
 
   <div class="max-w-6xl mx-auto space-y-32 relative z-10">
@@ -57,8 +58,8 @@
             </p>
           </div>
           <div class="relative">
-            <div class="border-4 border-yellow-400 rounded-xl overflow-hidden rotate-3 hover:rotate-0 transition-transform duration-500">
-              <img src="bus_vibe.jpg" alt="Sweet Riot Bus" class="w-full h-64 object-cover grayscale hover:grayscale-0 transition-all duration-700" />
+            <div class="border-2 border-yellow-400 rounded-xl overflow-hidden rotate-3 hover:rotate-0 transition-transform duration-500">
+              <img src="bus_vibe.png" alt="Sweet Riot Bus" class="w-full h-64 object-cover m-5 mr-5 hover:grayscale-0 transition-all duration-700" />
             </div>
             <div class="absolute -bottom-6 -left-6 bg-martens-haribo text-white p-4 rounded-full font-black text-xs uppercase tracking-widest -rotate-12 shadow-xl">
               Tour Européen
@@ -103,7 +104,7 @@
 
         <div class="group">
           <div class="h-48 flex items-center justify-center mb-4 group-hover:animate-bounce transition-all">
-             <img src="bag_el.png" alt="Sachet Gélatine EL" class="h-full drop-shadow-xl" />
+             <img src="bag_el.jpg" alt="Sachet Gélatine EL" class="h-full drop-shadow-xl" />
           </div>
           <p class="text-xl">Le Sachet EL</p>
           <span class="text-[10px] font-normal lowercase opacity-70">Gélatines en forme de mini bottes</span>
@@ -122,14 +123,16 @@
     <div class="text-center pt-32 pb-20">
       <div class="inline-block relative">
         <span class="absolute -inset-1 bg-yellow-400 -rotate-1"></span>
-        <p class="relative text-black text-2xl md:text-4xl font-black uppercase px-4">
+        <p class="relative text-martens-black text-2xl md:text-4xl font-black uppercase px-4">
           "Le monde bouge, mais nous, nous sommes toujours là."
         </p>
       </div>
       <div class="mt-12 flex justify-center">
-        <button class="bg-black text-white text-xl font-black px-12 py-5 rounded-full hover:bg-martens-haribo hover:scale-105 transition-all active:scale-95 shadow-2xl tracking-tighter uppercase">
+        <a href="/itineraire">
+        <button class="bg-martens-black text-white text-xl font-martens-black px-12 py-5 rounded-full hover:bg-martens-haribo hover:scale-105 transition-all active:scale-95  tracking-tighter uppercase">
           Rejoindre la Marche
         </button>
+        </a>
       </div>
     </div>
   </div>

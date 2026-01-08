@@ -36,6 +36,8 @@
     <a href="https://www.haribo.com/" class="hover:underline">Haribo</a>
     <a href="https://www.drmartens.com/" class="hover:underline">Dr Martens</a>
     <a href="/apropos" class="hover:underline">À Propos</a>
+    <a href="/villes" class="hover:underline">Itinéraire</a>
+    <a href="/pack" class="hover:underline">le Pack</a>
   </div>
 
   <button 
@@ -63,6 +65,8 @@
       <a href="https://www.haribo.com/" on:click={toggleMenu} class="text-3xl font-black hover:text-martens-yellow">Haribo</a>
       <a href="https://www.drmartens.com/" on:click={toggleMenu} class="text-3xl font-black hover:text-martens-yellow">Dr Martens</a>
       <a href="/apropos" on:click={toggleMenu} class="text-3xl font-black hover:text-martens-yellow">À Propos</a>
+      <a href="/villes" on:click={toggleMenu} class="text-3xl font-black hover:text-martens-yellow">Itinéraire</a>
+      <a href="/pack" on:click={toggleMenu} class="text-3xl font-black hover:text-martens-yellow">le Pack</a>
       
     </div>
   {/if}
