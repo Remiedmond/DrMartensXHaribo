@@ -6,7 +6,7 @@
   import LicoriceScroll from '$lib/LicoriceScroll.svelte';
   import VideoPlayer from '$lib/VideoPlayer.svelte';
   import Event from '$lib/event.svelte';
-  import Historique from '$lib/Historique.svelte';
+  import Historique from '$lib/historique.svelte';
   import Lepack from '$lib/lepack.svelte';
   import Footer from '$lib/footer.svelte';
 
