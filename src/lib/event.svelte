@@ -99,5 +99,4 @@
   /* Délais */
   .delay-1 { transition-delay: 0.1s; }
   .delay-2 { transition-delay: 0.3s; }
-  .delay-3 { transition-delay: 0.5s; }
 </style>

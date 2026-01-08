@@ -4,7 +4,15 @@
   let isPaused = false;
 </script>
 
-<div class=" flex overflow-x-hidden  bg-martens-black py-3" on:mouseenter={() => isPaused = true} on:mouseleave={() => isPaused = false}>
+
+<div 
+  class="flex overflow-x-hidden bg-martens-black py-3" 
+  role="region" 
+  aria-label="Marquee"
+  tabindex="0"
+  on:mouseenter={() => isPaused = true} 
+  on:mouseleave={() => isPaused = false}
+>
   <div class="animate-marquee whitespace-nowrap flex" class:paused={isPaused} style="animation-play-state: {isPaused ? 'paused' : 'running'};">
     <span class="text-4xl font-black uppercase tracking-tighter text-martens-yellow mx-0">
       {repeatedText}
