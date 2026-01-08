@@ -19,10 +19,10 @@
                 </div>
 
                 <div class="flex gap-4">
-                    <a href="#" class="hover:scale-110 transition-transform"><img src="/tiktok.png" alt="TikTok" class="w-10 h-10 opacity-80 hover:opacity-100" /></a>
-                    <a href="#" class="hover:scale-110 transition-transform"><img src="/instagram.png" alt="Instagram" class="w-10 h-10 opacity-80 hover:opacity-100" /></a>
-                    <a href="#" class="hover:scale-110 transition-transform"><img src="/facebook.png" alt="Facebook" class="w-10 h-10 opacity-80 hover:opacity-100" /></a>
-                    <a href="#" class="hover:scale-110 transition-transform"><img src="/linkedin.png" alt="LinkedIn" class="w-10 h-10 opacity-80 hover:opacity-100" /></a>
+                    <button class="hover:scale-110 transition-transform"><img src="/tiktok.png" alt="TikTok" class="w-10 h-10 opacity-80 hover:opacity-100" /></button>
+                    <button class="hover:scale-110 transition-transform"><img src="/instagram.png" alt="Instagram" class="w-10 h-10 opacity-80 hover:opacity-100" /></button>
+                    <button class="hover:scale-110 transition-transform"><img src="/facebook.png" alt="Facebook" class="w-10 h-10 opacity-80 hover:opacity-100" /></button>
+                    <button class="hover:scale-110 transition-transform"><img src="/linkedin.png" alt="LinkedIn" class="w-10 h-10 opacity-80 hover:opacity-100" /></button>
                 </div>
             </div>
 
@@ -55,9 +55,9 @@
                 </div>
 
                 <nav class="flex flex-col gap-2 text-sm font-bold uppercase tracking-widest text-martens-beige">
-                    <a href="#" class="hover:text-white">Haribo</a>
-                    <a href="#" class="hover:text-white">Dr. Martens</a>
-                    <a href="#" class="hover:text-white">À Propos</a>
+                    <button class="hover:text-white">Haribo</button>
+                    <button class="hover:text-white">Dr. Martens</button>
+                    <button class="hover:text-white">À Propos</button>
                 </nav>
             </div>
         </div>
@@ -65,8 +65,8 @@
         <div class=" flex flex-col md:flex-row justify-between gap-6 text-[10px] uppercase tracking-widest text-martens-beige mb-6" style="margin-top: -5rem;">
             <p>©2026 dr. martens x haribo</p>
             <div class="flex flex-wrap gap-8" >
-                <a href="#" class="hover:text-white">Mentions légales</a>
-                <a href="#" class="hover:text-white">Politique de confidentialité</a>
+                <button class="hover:text-white">Mentions légales</button>
+                <button class="hover:text-white">Politique de confidentialité</button>
             </div>
         </div>
     </div>
