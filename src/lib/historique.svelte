@@ -1,6 +1,6 @@
 <script>
   import { onMount } from 'svelte';
-	import Event from './Event.svelte';
+	import Event from './event.svelte';
 
   let elements = [];
 
@@ -70,10 +70,7 @@
 </section>
 
 <style>.fade-up,
-.fade-right,
-.fade-right2,
-.fade-left,
-.fade-bottom {
+.fade-right{
   opacity: 0;
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
@@ -87,42 +84,26 @@
   transform: translateX(100px);
 }
 
-.fade-right2 {
-  transform: translateX(50px);
-}
-.fade-left {
-  transform: translateX(-100px);
-}
-.fade-bottom {
-  transform: translateY(120px);
-}
+
 
 
 /* ÉTAT FINAL */
-.fade-up.animate-in {
+:global(.fade-up.animate-in) {
   opacity: 1;
   transform: translateY(0);
 }
 
-.fade-right.animate-in {
+:global(.fade-right.animate-in) {
   opacity: 1;
   transform: translateX(0);
 }
 
-.fade-right2.animate-in {
+:global(.fade-right2.animate-in) {
   opacity: 1;
   transform: translateX(0);
 }
 
-.fade-left.animate-in {
-  opacity: 1;
-  transform: translateX(0);
-}
 
-.fade-bottom.animate-in {
-  opacity: 1;
-  transform: translateY(0);
-}
 /* Delays */
 .delay-1 { transition-delay: 0.1s; }
 .delay-2 { transition-delay: 0.2s; }
