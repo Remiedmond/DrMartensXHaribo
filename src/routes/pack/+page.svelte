@@ -8,8 +8,8 @@
   import Hero from '$lib/Hero.svelte';
   import SweetRiotv2 from '$lib/sweetriotv2.svelte';
   import VideoPlayer from '$lib/VideoPlayer.svelte';
-  import Event from '$lib/Event.svelte';
-  import Historique from '$lib/Historique.svelte';
+  import Event from '$lib/event.svelte';
+  import Historique from '$lib/historique.svelte';
   import Lepack from '$lib/lepack.svelte';
   import Packcollector from '$lib/packcollector.svelte';
 
